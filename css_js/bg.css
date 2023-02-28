@@ -1,0 +1,12 @@
+.blue
+{
+    background-color: #0583D2;
+}
+.white
+{
+    background-color: whitesmoke;
+}
+input{
+    width: 25rem;
+    border-radius: 0.5rem;
+}
