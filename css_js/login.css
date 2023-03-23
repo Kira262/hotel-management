@@ -60,7 +60,7 @@ body:before
 	width: 100%;
 	margin-bottom: 20px;
 }
-.login-form input[type=email], .login-form input[type=password] 
+.login-form input[type=text], .login-form input[type=password] 
 {
 	border: none;
 	border-bottom: 1px solid white;
