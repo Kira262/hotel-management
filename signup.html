@@ -21,7 +21,7 @@
                 src="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/signup-icon.png">
             <h2>Sign-up Form</h2>
             <form method="get" action="https://kira262.github.io/thisfinal/home.html" onclick="ok()">
-                <label>E-mail</label><input placeholder="Enter Email" type="email" required>
+                <label>E-mail</label><input placeholder="Enter Email" id="p3" type="text" required>
                 <label>Password</label><input placeholder="Enter Password" id="p1" type="password" required>
                 <label>Confirm Password</label><input placeholder="Enter Password" id="p2" type="password" required>
                 <input type="submit" value="Sign up">
@@ -33,6 +33,14 @@
                 u1=document.getElementById("p2").value
                 if(u!=u1){
                     alert("Please put same password")
+                }
+                pat=/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
+                u2=document.getElementById("p3").value
+                if(pat.test(u2)){
+                }
+                else
+                {
+                    alert("Invalid email")
                 }
             }
         </script>
