@@ -20,12 +20,21 @@
             <img alt="Signup Image" class="avatar"
                 src="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/signup-icon.png">
             <h2>Sign-up Form</h2>
-            <form method="get" action="https://kira262.github.io/thisfinal/home.html">
+            <form method="get" action="https://kira262.github.io/thisfinal/home.html" onclick="ok()">
                 <label>E-mail</label><input placeholder="Enter Email" type="email" required>
-                <label>Password</label><input placeholder="Enter Password" type="password" required>
-                <label>Confirm Password</label><input placeholder="Enter Password" type="password" required>
+                <label>Password</label><input placeholder="Enter Password" id="p1" type="password" required>
+                <label>Confirm Password</label><input placeholder="Enter Password" id="p2" type="password" required>
                 <input type="submit" value="Sign up">
             </form>
         </div>
+        <script>
+            function ok(){
+                u=document.getElementById("p1").value
+                u1=document.getElementById("p2").value
+                if(u!=u1){
+                    alert("Please put same password")
+                }
+            }
+        </script>
     </body>
 </html>
