@@ -3,7 +3,7 @@ body
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
-    color:white;
+	color:white;
 }
 body:before 
 {
@@ -14,10 +14,10 @@ body:before
 	background: url("https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/blue-bg-1.png") no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	-webkit-background-size: cover;
+/* 	-webkit-background-size: cover; */
 	background-size: cover;
-	-webkit-filter: blur(10px);
-	-moz-filter: blur(10px);
+/* 	-webkit-filter: blur(10px); */
+/* 	-moz-filter: blur(10px); */
 	filter: blur(10px);
 }
 .signup-form 
