@@ -1,169 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Hostel Management</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Icons -->
-        <link rel="apple-touch-icon" sizes="180x180"
-            href="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/Icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32"
-            href="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/Icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16"
-            href="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/Icon/favicon-16x16.png">
-        <link rel="manifest" href="site.webmanifest">
-        <!-- StyleSheets -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://kit.fontawesome.com/3472c536ee.css"
-            crossorigin="anonymous">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="css_js/style.css">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary
-                bg-gradient">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><i class="fa
-                            fa-home fa-2x" alt="Logo"></i></a>
-                    <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#Support">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar flex-row-reverse " id="Support">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold fs-5">
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://kira262.github.io/thisfinal/login.html"
-                                    target="_blank">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://kira262.github.io/thisfinal/signup.html"
-                                    target="_blank">Create Account</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <div class="jpg">
-                    <h1>Hostel Management</h1>
-                </div>
-            </section>
-            <section>
-                <div class="bg-light row about">
-                    <div class="col-md-6">
-                        <h2>About this Website</h2>
-                        <p>
-                            A survey rendered that the current ways of managing
-                            a hostel are a mess.
-                            They're time consuming, require paper based
-                            applications and highly inefficient.
-                            A solution needs to be in place for a problem which
-                            is faced by thousands of students across the
-                            country.
-                            In an age of digitization, it is a folly that
-                            hostels are still using outdated paper based systems
-                            to manage the day to day functioning of the hostels.
-                            There needs to be change in the current ways to make
-                            it easier for both the student and the
-                            administration to perform the daily interactions.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="https://t.ly/ORVQ" alt="Hostel"
-                            class="rounded" height="100%" width="100%">
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="bg-info bg-gradient row text-center text-lg-center
-                    about">
-                    <div class="col-md-4">
-                        <i class="fa fa-question-circle"></i>
-                        <h2>Query</h2>
-                        <p>
-                            The students can use the admin provided password to
-                            login to their account.
-                            If they are facing any problem with the hostel
-                            facilities provided in their room,
-                            they can generate a query for that problem through
-                            their account.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <i class="fa fa-person-walking-arrow-right"></i>
-                        <h2>Absence Request</h2>
-                        <p>
-                            The leave request will now be sent to the admin
-                            dashboard where it can be approved by the admin.
-                            The information about the leave submitted by the
-                            student is also sent to the student's parents via
-                            mail.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <i class="fa fa-clipboard"></i>
-                        <h2>Attendance</h2>
-                        <p>
-                            The students that are outside the hostel are visible
-                            on the admin dashboard.
-                            A mail is automatically sent out to the students
-                            parents informing them about the violation of the
-                            deadline,
-                            30 minutes after the violation.
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <button type="button" class="btn btn-floating bg-transparent
-                btn-outline-dark btn-sm cursor" id="btn-back-to-top"
-                style="border-radius:25%;">
-                <i class="fa fa-arrow-up"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hostel Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icons -->
+    <link
+      rel="apple-touch-icon" sizes="180x180"
+      href="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/Icon/apple-touch-icon.png"/>
+    <link
+      rel="icon" type="image/png" sizes="32x32"
+      href="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/Icon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="https://raw.githubusercontent.com/Kira262/Final-Project-Repo-1/main/Images/Icon/favicon-16x16.png"/>
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- StyleSheets -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/3472c536ee.css"
+      crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" crossorigin="anonymous"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"/>
+    <link rel="stylesheet" href="css_js/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <i class="fa fa-home fa-2x" alt="Logo"></i>
+          </a>
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#Support">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar flex-row-reverse" id="Support">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold fs-5">
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="https://kira262.github.io/thisfinal/login.html"
+                  target="_blank">Login
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://kira262.github.io/thisfinal/signup.html"
+                  target="_blank">Create Account
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="carousel slide" id="demo" data-bs-ride="carousel" data-bs-interval="4000">
+          <div class="carousel-caption" style="color: white">Hostel Management System</div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./carousel/1.jpg" style="width: 100%; height: 600px" />
+            </div>
+            <div class="carousel-item">
+              <img src="./carousel/2.jpg" style="width: 100%; height: 600px" />
+            </div>
+            <div class="carousel-item">
+              <img src="./carousel/3.jpg" style="width: 100%; height: 600px" />
+            </div>
+            <div class="carousel-item">
+              <img src="./carousel/4.jpg" style="width: 100%; height: 600px" />
+            </div>
+            <div class="carousel-item">
+              <img src="./carousel/5.jpg" style="width: 100%; height: 600px" />
+            </div>
+            <div class="carousel-item">
+              <img src="./carousel/6.jpg" style="width: 100%; height: 600px" />
+            </div>
+            <button class="carousel-control-prev justify-content-center"
+              data-bs-target="#demo" data-bs-slide="prev" style="color: white">
+              <span class="carousel-control-prev-icon"></span>
             </button>
-        </footer>
-        <!-- Scripts -->
-        <script>
-    //For button
-let mybutton = document.getElementById("btn-back-to-top");
-// Scrolls down 10px from the top  show the button
-window.onscroll = function () {
-  scrollFunction();
-};
+            <button class="carousel-control-next justify-content-center"
+              data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </section>
 
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 10 ||
-    document.documentElement.scrollTop > 10
-  ) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-mybutton.addEventListener("click", backToTop);
+      <section>
+        <div class="bg-light row about">
+          <div class="col-md-6">
+            <h2>About this Website</h2>
+            <p>
+              A survey rendered that the current ways of managing a hostel are a
+              mess. They're time consuming, require paper based applications and
+              highly inefficient. A solution needs to be in place for a problem
+              which is faced by thousands of students across the country. In an
+              age of digitization, it is a folly that hostels are still using
+              outdated paper based systems to manage the day to day functioning
+              of the hostels. There needs to be change in the current ways to
+              make it easier for both the student and the administration to
+              perform the daily interactions.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="https://t.ly/ORVQ" alt="Hostel" class="rounded" height="100%" width="100%"/>
+          </div>
+        </div>
+      </section>
 
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-  </script>
-        <script src="https://kit.fontawesome.com/3472c536ee.js"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-    </body>
+      <section>
+        <div class="bg-info bg-gradient row text-center text-lg-center about">
+          <div class="col-md-4">
+            <i class="fa fa-question-circle"></i>
+            <h2>Query</h2>
+            <p>The students can use the admin provided password to login to their
+              account. If they are facing any problem with the hostel facilities
+              provided in their room, they can generate a query for that problem
+              through their account.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-person-walking-arrow-right"></i>
+            <h2>Absence Request</h2>
+            <p>The leave request will now be sent to the admin dashboard where it
+              can be approved by the admin. The information about the leave
+              submitted by the student is also sent to the student's parents via
+              mail.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-clipboard"></i>
+            <h2>Attendance</h2>
+            <p>The students that are outside the hostel are visible on the admin
+              dashboard. A mail is automatically sent out to the students
+              parents informing them about the violation of the deadline, 30
+              minutes after the violation.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <button type="button" 
+        class="btn btn-floating bg-transparent btn-outline-dark btn-sm cursor"
+        id="btn-back-to-top" style="border-radius: 25%">
+        <i class="fa fa-arrow-up"></i>
+      </button>
+    </footer>
+    <!-- Scripts -->
+    <script>
+      let mybutton = document.getElementById("btn-back-to-top");// Scrolls down 10px from the top  show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 10 ||
+          document.documentElement.scrollTop > 10
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/3472c536ee.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
